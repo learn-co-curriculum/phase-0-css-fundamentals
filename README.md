@@ -19,7 +19,7 @@ how to comment our CSS.
 Before we turn to the various ways we can extend CSS rules, let's go over the
 foundational syntax CSS uses.
 
-![](https://curriculum-content.s3.amazonaws.com/css-essentials/css-fundamentals/Image_43_ReCreateGraphic.png)
+![image showing selector, property, and values in CSS code](https://curriculum-content.s3.amazonaws.com/css-essentials/css-fundamentals/Image_43_ReCreateGraphic.png)
 
 We create a CSS rule by defining the selector, which matches the HTML element we
 want to style. Inside the curly braces we declare the properties we want to
@@ -227,8 +227,8 @@ h3 + p {
 }
 ```
 
-Here the adjacent sibling selector will style the paragraph directly following an `h3`
-element but not paragraphs that come after the first.
+Here the adjacent sibling selector will style the paragraph directly following
+an `h3` element but not paragraphs that come after the first.
 
 ```html
 <h3>Header</h3>
