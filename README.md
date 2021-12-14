@@ -90,9 +90,9 @@ documents.
 ```
 
 With the `link` tag, we can use the relation attribute to define the target as a
-style sheet and the link source our CSS file that contains all the CSS we want to
-use on our site. This is by far the easiest way to link CSS to HTML and apply
-styles across all of our pages.
+style sheet, and the link source to be our CSS file that contains all the CSS we
+want to use on our site. This is by far the easiest way to link CSS to HTML and
+apply styles across all of our pages.
 
 ## Implement Various Types of CSS Selectors
 
@@ -316,11 +316,10 @@ a:visited {
 }
 ```
 
-These two link examples reflect the way links that are both unvisited and
-visited will be displayed differently. If the link is unvisited, it will show as
-blue. If it has been visited, it will show up purple. Pseudo-class selectors,
-like attribute selectors, have a lot of aspects so you can explore them more in
-other resources.
+These two link examples reflect the difference in the way visited vs. unvisited
+links will be displayed. If the link is unvisited, it will show as blue. If it
+has been visited, it will show up purple. Pseudo-class selectors, like attribute
+selectors, have a lot of aspects so you can explore them more in other resources.
 
 ```html
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">
