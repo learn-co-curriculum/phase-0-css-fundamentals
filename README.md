@@ -19,7 +19,7 @@ how to comment our CSS.
 Before we turn to the various ways we can extend CSS rules, let's go over the
 foundational syntax CSS uses.
 
-![](https://curriculum-content.s3.amazonaws.com/css-essentials/css-fundamentals/Image_43_ReCreateGraphic.png)
+![image showing selector, property, and values in CSS code](https://curriculum-content.s3.amazonaws.com/css-essentials/css-fundamentals/Image_43_ReCreateGraphic.png)
 
 We create a CSS rule by defining the selector, which matches the HTML element we
 want to style. Inside the curly braces we declare the properties we want to
@@ -90,9 +90,9 @@ documents.
 ```
 
 With the `link` tag, we can use the relation attribute to define the target as a
-style sheet and the link source our CSS file that contains all the CSS we want to
-use on our site. This is by far the easiest way to link CSS to HTML and apply
-styles across all of our pages.
+style sheet, and the link source to be our CSS file that contains all the CSS we
+want to use on our site. This is by far the easiest way to link CSS to HTML and
+apply styles across all of our pages.
 
 ## Implement Various Types of CSS Selectors
 
@@ -227,8 +227,8 @@ h3 + p {
 }
 ```
 
-Here the adjacent sibling selector will style the paragraph directly following an `h3`
-element but not paragraphs that come after the first.
+Here the adjacent sibling selector will style the paragraph directly following
+an `h3` element but not paragraphs that come after the first.
 
 ```html
 <h3>Header</h3>
@@ -316,11 +316,10 @@ a:visited {
 }
 ```
 
-These two link examples reflect the way links that are both unvisited and
-visited will be displayed differently. If the link is unvisited, it will show as
-blue. If it has been visited, it will show up purple. Pseudo-class selectors,
-like attribute selectors, have a lot of aspects so you can explore them more in
-other resources.
+These two link examples reflect the difference in the way visited vs. unvisited
+links will be displayed. If the link is unvisited, it will show as blue. If it
+has been visited, it will show up purple. Pseudo-class selectors, like attribute
+selectors, have a lot of aspects so you can explore them more in other resources.
 
 ```html
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">
